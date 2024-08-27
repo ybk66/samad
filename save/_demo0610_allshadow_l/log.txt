@@ -1,0 +1,115 @@
+train dataset: size=1330
+  inp: shape=(3, 1024, 1024)
+  gt: shape=(1, 1024, 1024)
+val dataset: size=540
+  inp: shape=(3, 1024, 1024)
+  gt: shape=(1, 1024, 1024)
+model: #params=312.5M
+epoch 1/90 | train G: loss=1.0570
+epoch 2/90 | train G: loss=0.4222
+epoch 3/90 | train G: loss=0.3139
+epoch 4/90 | train G: loss=0.2339
+epoch 5/90 | train G: loss=0.2149
+epoch 5/90, train G: loss=0.2149, val: shadow=1.5533, val: non_shadow=3.5067, val: ber=2.5300, val: none=0.0000, 4.4m 17.5m/5.3h
+epoch 6/90 | train G: loss=0.1837
+epoch 7/90 | train G: loss=0.1855
+epoch 8/90 | train G: loss=0.1598
+epoch 9/90 | train G: loss=0.1485
+epoch 10/90 | train G: loss=0.1395
+epoch 10/90, train G: loss=0.1395, val: shadow=3.6437, val: non_shadow=1.3970, val: ber=2.5203, val: none=0.0000, 4.4m 35.0m/5.3h
+epoch 11/90 | train G: loss=0.1459
+epoch 12/90 | train G: loss=0.1532
+epoch 13/90 | train G: loss=0.1241
+epoch 14/90 | train G: loss=0.1412
+epoch 15/90 | train G: loss=0.1137
+epoch 15/90, train G: loss=0.1137, val: shadow=2.3464, val: non_shadow=1.4086, val: ber=1.8775, val: none=0.0000, 4.4m 52.5m/5.3h
+epoch 16/90 | train G: loss=0.1118
+epoch 17/90 | train G: loss=0.1281
+epoch 18/90 | train G: loss=0.1127
+epoch 19/90 | train G: loss=0.1152
+epoch 20/90 | train G: loss=0.1142
+epoch 20/90, train G: loss=0.1142, val: shadow=1.6471, val: non_shadow=1.5104, val: ber=1.5787, val: none=0.0000, 4.4m 1.2h/5.3h
+epoch 21/90 | train G: loss=0.1114
+epoch 22/90 | train G: loss=0.1034
+epoch 23/90 | train G: loss=0.1055
+epoch 24/90 | train G: loss=0.0952
+epoch 25/90 | train G: loss=0.0885
+epoch 25/90, train G: loss=0.0885, val: shadow=2.2059, val: non_shadow=1.1263, val: ber=1.6661, val: none=0.0000, 4.4m 1.5h/5.3h
+epoch 26/90 | train G: loss=0.0905
+epoch 27/90 | train G: loss=0.1012
+epoch 28/90 | train G: loss=0.0959
+epoch 29/90 | train G: loss=0.0923
+epoch 30/90 | train G: loss=0.0965
+epoch 30/90, train G: loss=0.0965, val: shadow=1.9149, val: non_shadow=1.1755, val: ber=1.5452, val: none=0.0000, 4.4m 1.8h/5.3h
+epoch 31/90 | train G: loss=0.0850
+epoch 32/90 | train G: loss=0.0849
+epoch 33/90 | train G: loss=0.0871
+epoch 34/90 | train G: loss=0.0806
+epoch 35/90 | train G: loss=0.0926
+epoch 35/90, train G: loss=0.0926, val: shadow=2.2132, val: non_shadow=1.2813, val: ber=1.7472, val: none=0.0000, 4.4m 2.0h/5.3h
+epoch 36/90 | train G: loss=0.0804
+epoch 37/90 | train G: loss=0.0790
+epoch 38/90 | train G: loss=0.0804
+epoch 39/90 | train G: loss=0.0956
+epoch 40/90 | train G: loss=0.0904
+epoch 40/90, train G: loss=0.0904, val: shadow=1.9749, val: non_shadow=1.1338, val: ber=1.5544, val: none=0.0000, 4.4m 2.3h/5.3h
+epoch 41/90 | train G: loss=0.0806
+epoch 42/90 | train G: loss=0.0784
+epoch 43/90 | train G: loss=0.0740
+epoch 44/90 | train G: loss=0.0739
+epoch 45/90 | train G: loss=0.0732
+epoch 45/90, train G: loss=0.0732, val: shadow=1.5837, val: non_shadow=1.4515, val: ber=1.5176, val: none=0.0000, 4.4m 2.6h/5.3h
+epoch 46/90 | train G: loss=0.0759
+epoch 47/90 | train G: loss=0.0749
+epoch 48/90 | train G: loss=0.0719
+epoch 49/90 | train G: loss=0.0700
+epoch 50/90 | train G: loss=0.0690
+epoch 50/90, train G: loss=0.0690, val: shadow=1.8402, val: non_shadow=1.1767, val: ber=1.5085, val: none=0.0000, 4.4m 2.9h/5.3h
+epoch 51/90 | train G: loss=0.0698
+epoch 52/90 | train G: loss=0.0702
+epoch 53/90 | train G: loss=0.0686
+epoch 54/90 | train G: loss=0.0686
+epoch 55/90 | train G: loss=0.0685
+epoch 55/90, train G: loss=0.0685, val: shadow=1.6177, val: non_shadow=1.3252, val: ber=1.4715, val: none=0.0000, 4.4m 3.2h/5.3h
+epoch 56/90 | train G: loss=0.0671
+epoch 57/90 | train G: loss=0.0651
+epoch 58/90 | train G: loss=0.0653
+epoch 59/90 | train G: loss=0.0647
+epoch 60/90 | train G: loss=0.0652
+epoch 60/90, train G: loss=0.0652, val: shadow=1.4267, val: non_shadow=1.4027, val: ber=1.4147, val: none=0.0000, 4.4m 3.5h/5.3h
+epoch 61/90 | train G: loss=0.0647
+epoch 62/90 | train G: loss=0.0633
+epoch 63/90 | train G: loss=0.0626
+epoch 64/90 | train G: loss=0.0624
+epoch 65/90 | train G: loss=0.0633
+epoch 65/90, train G: loss=0.0633, val: shadow=1.7546, val: non_shadow=1.1458, val: ber=1.4502, val: none=0.0000, 4.4m 3.8h/5.3h
+epoch 66/90 | train G: loss=0.0617
+epoch 67/90 | train G: loss=0.0611
+epoch 68/90 | train G: loss=0.0613
+epoch 69/90 | train G: loss=0.0601
+epoch 70/90 | train G: loss=0.0603
+epoch 70/90, train G: loss=0.0603, val: shadow=1.7777, val: non_shadow=1.1036, val: ber=1.4406, val: none=0.0000, 4.4m 4.1h/5.3h
+epoch 71/90 | train G: loss=0.0602
+epoch 72/90 | train G: loss=0.0596
+epoch 73/90 | train G: loss=0.0597
+epoch 74/90 | train G: loss=0.0598
+epoch 75/90 | train G: loss=0.0591
+epoch 75/90, train G: loss=0.0591, val: shadow=1.5280, val: non_shadow=1.2701, val: ber=1.3991, val: none=0.0000, 4.4m 4.4h/5.3h
+epoch 76/90 | train G: loss=0.0586
+epoch 77/90 | train G: loss=0.0586
+epoch 78/90 | train G: loss=0.0586
+epoch 79/90 | train G: loss=0.0580
+epoch 80/90 | train G: loss=0.0583
+epoch 80/90, train G: loss=0.0583, val: shadow=1.5614, val: non_shadow=1.2888, val: ber=1.4251, val: none=0.0000, 4.4m 4.7h/5.3h
+epoch 81/90 | train G: loss=0.0581
+epoch 82/90 | train G: loss=0.0580
+epoch 83/90 | train G: loss=0.0576
+epoch 84/90 | train G: loss=0.0576
+epoch 85/90 | train G: loss=0.0575
+epoch 85/90, train G: loss=0.0575, val: shadow=1.5438, val: non_shadow=1.2441, val: ber=1.3940, val: none=0.0000, 4.4m 5.0h/5.3h
+epoch 86/90 | train G: loss=0.0579
+epoch 87/90 | train G: loss=0.0576
+epoch 88/90 | train G: loss=0.0577
+epoch 89/90 | train G: loss=0.0573
+epoch 90/90 | train G: loss=0.0581
+epoch 90/90, train G: loss=0.0581, val: shadow=1.5170, val: non_shadow=1.2606, val: ber=1.3888, val: none=0.0000, 4.4m 5.3h/5.3h

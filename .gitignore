@@ -1,0 +1,5 @@
+output/
+mytest/
+load/
+pretrained/
+save/**/*.pth
